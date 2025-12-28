@@ -28,7 +28,7 @@ const contactMethods = [
   {
     icon: MapPin,
     title: 'Localização',
-    details: ['Belo Horizonte', 'Minas Gerais, Brasil'],
+    details: ['Esmeraldas', 'Minas Gerais, Brasil'],
   },
 ];
 
@@ -107,3 +107,4 @@ export default function Contact() {
     </div>
   );
 }
+
