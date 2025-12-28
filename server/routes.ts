@@ -22,8 +22,12 @@ const agencyData = {
     { name: "Porto Seguro", price: 1400, description: "Descobrimento do Brasil com praias e história" },
   ],
   company: {
-    name: "Roda Bem Turismo",
+    name: "Rodabem Turismo",
+    cnpj: "27.643.750/0019-0",
+    location: "Esmeraldas, Minas Gerais",
     whatsapp: "+55 31 99085-8868",
+    email: "contato@rodabemturismo.com",
+    instagram: "@rodabemturismo",
     payment: "PIX, dinheiro e cartão de crédito (parcelamento disponível)",
     years: 9,
     customers: "10000+",
@@ -186,3 +190,4 @@ SEJA ENVOLVENTE E CRIE DESEJO DE VIAJAR! 🌎`;
   const httpServer = createServer(app);
   return httpServer;
 }
+
