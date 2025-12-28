@@ -14,28 +14,33 @@ export default function Footer() {
             viewport={{ once: true }}
           >
             <h3 className="font-serif text-3xl font-bold mb-4 gradient-text" data-testid="text-footer-brand">
-              Roda Bem
+              Rodabem Turismo
             </h3>
             <p className="text-muted-foreground leading-relaxed mb-6" data-testid="text-footer-tagline">
               Transformando sonhos em experiências inesquecíveis desde 2020.
             </p>
+            <p className="text-sm text-muted-foreground mb-4">CNPJ: 27.643.750/0019-0</p>
             <div className="flex gap-3">
               <a 
-                href="#" 
+                href="https://instagram.com/rodabemturismo" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center hover-elevate active-elevate-2 transition-all"
                 data-testid="link-footer-instagram"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a 
-                href="#" 
+                href="https://facebook.com/rodabemturismo" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center hover-elevate active-elevate-2 transition-all"
                 data-testid="link-footer-facebook"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a 
-                href="mailto:contato@rodabem.com" 
+                href="mailto:contato@rodabemturismo.com" 
                 className="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center hover-elevate active-elevate-2 transition-all"
                 data-testid="link-footer-email"
               >
@@ -90,21 +95,21 @@ export default function Footer() {
                 <Phone className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="font-medium text-foreground">WhatsApp</p>
-                  <p className="text-sm">(11) 9 8765-4321</p>
+                  <p className="text-sm">(31) 99085-8868</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="font-medium text-foreground">Email</p>
-                  <p className="text-sm">contato@rodabem.com</p>
+                  <p className="text-sm">contato@rodabemturismo.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="font-medium text-foreground">Endereço</p>
-                  <p className="text-sm">São Paulo, SP - Brasil</p>
+                  <p className="text-sm">Esmeraldas, MG - Brasil</p>
                 </div>
               </div>
             </div>
@@ -114,7 +119,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground text-center md:text-left" data-testid="text-footer-copyright">
-            © 2024 Roda Bem Turismo. Todos os direitos reservados.
+            © 2024 Rodabem Turismo. Todos os direitos reservados.
           </p>
           <div className="flex gap-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">Política de Privacidade</a>
@@ -125,3 +130,4 @@ export default function Footer() {
     </footer>
   );
 }
+
